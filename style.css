@@ -114,9 +114,58 @@ body {
     transform: translateX(-50%);
 }
 
+#bottom {
+    height: 380px;
+    width: 100%;
+    padding: 5px;
+    /* gap: 30px; */
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+#bottom::-webkit-scrollbar {
+    display: none;
+}
+
+.elem {
+    display: inline-block;
+    position: relative;
+    height: 100%;
+    width: 320px;
+    background-color: royalblue;
+    border-radius: 40px;
+    overflow: hidden;
+}
+
+.elem img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.elem video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* .elem .text-bottom {
+    height: 40%;
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+    color: #fff;
+} */
 
 
-
+#page2 {
+    height: 100%;
+    width: 100%;
+    background-color: grey;
+}
 
 
 
