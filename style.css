@@ -20,12 +20,12 @@ body {
 }
 
 #nav {
-    height: 120px;
+    height: 14vh;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 40px;
+    padding: 0 2.1vw;
 }
 
 #nav-part1 {
@@ -36,7 +36,7 @@ body {
 }
 
 #nav-part1 h4 {
-    font-size: 16px;
+    font-size: 1.1vw;
     font-weight: 500;
 }
 
@@ -48,14 +48,16 @@ body {
 }
 
 #nav-part2 button {
-    padding: 15px 22px;
-    border-radius: 50px;
-    font-size: 17px;
+    padding: 12px 17.6px;
+    padding: 0.8vw 1.1vw;
+    border-radius: 40px;
+    font-size: 1.1vw;
     font-weight: 600;
     border: none;
     background-color: #000;
     color: #fff;
-    margin: 0 10px;
+    margin: 0 8px;
+    cursor: pointer;
 }
 
 #nav-part2 button:nth-child(1) {
@@ -64,61 +66,62 @@ body {
 }
 
 #nav img {
-    height: 110px;
+    height: 13vh;
 }
 
 #content {
-    height: calc(100% - 120px);
+    height: calc(100% - 14vh);
     width: 100%;
-    padding-top: 90px;    
+    padding-top: 10vh;
 }
 
 #content h3 {
     background-color: #f2b0ea;
-    padding: 10px 16px;
+    padding: 8px 12.8px;
     width: fit-content;
     border-radius: 50px;
     position: relative;
     left: 50%;
     transform: translateX(-50%);
-    font-size: 17px;
+    font-size: 1.1vw;
     font-weight: 100;
 }
 
 #content h1 {
     font-family: "Source Serif 4";
-    font-size: 80px;
+    font-size: 4.2vw;
     font-weight: 100;
     text-align: center;
-    margin: 25px 0;
-    line-height: 80px;
+    margin: 20px 0;
+    line-height: 4.2vw;
 }
 
 #content h4 {
-    font-size: 20px;
+    font-size: 1.05vw;
     text-align: center;
     font-weight: 500;
 }
 
 #content button {
-    padding: 20px 28px;
+    padding: 16px 22.4px;
     border-radius: 50px;
-    font-size: 18px;
+    font-size: 0.95vw;
     font-weight: 600;
     border: none;
     background-color: #000;
     color: #fff;
-    margin: 30px 0px;
+    margin: 24px 0px;
     position: relative;
     left: 50%;
     transform: translateX(-50%);
+    cursor: pointer;
 }
 
 #bottom {
-    height: 380px;
+    height: 43vh;
     width: 100%;
-    padding: 5px;
-    /* gap: 30px; */
+    padding: 4px;
+    gap: 30px;
     white-space: nowrap;
     overflow-x: auto;
     overflow-y: hidden;
@@ -132,9 +135,9 @@ body {
     display: inline-block;
     position: relative;
     height: 100%;
-    width: 320px;
+    width: 17vw;
     background-color: royalblue;
-    border-radius: 40px;
+    border-radius: 32px;
     overflow: hidden;
 }
 
@@ -162,32 +165,32 @@ body {
 
 
 #page2 {
-    margin-top: 320px; /* remove this after */
-    padding-top: 100px;
+    margin-top: 13vh;
+    padding-top: 80px;
     height: 100%;
     width: 100%;
     background-color: #FFFFFF;
     position: relative;
-    padding: 70px;
+    padding: 56px;
 }
 
 #page2 h1 {
     text-align: center;
-    font-size: 60px;
+    font-size: 3.15vw;
     font-weight: 500;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 
 .box {
-    height: 330px;
-    width: 400px;
+    height: 40vh;
+    width: 21vw;
     background-color: red;
     border-radius: 10px;
     display: inline-block;
     position: relative;
     transition: all ease 0.5s;
     overflow: hidden;
-    margin: 15px;
+    margin: 12px;
 }
 
 .box img {
@@ -208,20 +211,20 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 20px;
+    padding: 0 16px;
 }
 
 .box-bottom i {
     background-color: #fff;
-    padding: 8px 9px;
+    padding: 6.4px 7.2px;
     color: #000;
     border-radius: 50%;
-    font-size: 19px;
+    font-size: 1vw;
     font-weight: 600;
 }
 
 .box-bottom h5 {
-    font-size: 18px;
+    font-size: 1vw;
 }
 
 .box:hover .box-bottom {
